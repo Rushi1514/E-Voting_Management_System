@@ -1,0 +1,34 @@
+.home-image{
+  height:50px;
+  width:50px;
+  border-radius: 20px;
+}
+.navigationbar {
+    background-color: #007bff; /* Navbar background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding for better spacing */
+  }
+  .navigationbar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  .navigationbar li {
+    margin-bottom: 10px;
+    display: inline; /* Display list items horizontally */
+    align-items: center;
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  .navigationbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    font-size: 24px;
+    /* Optional: Add padding and background color for better interactivity */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .navigationbar a:hover {
+    color: #0056b3; /* Change link color on hover */
+  }
+  

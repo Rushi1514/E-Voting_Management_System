@@ -1,0 +1,49 @@
+/* Profile.css */
+
+.profile-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-data {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.profile-image img {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  margin-bottom: 20px;
+}
+
+.profile-logout-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add more styles as needed for additional fields */

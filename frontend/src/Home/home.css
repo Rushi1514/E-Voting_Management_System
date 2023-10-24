@@ -1,0 +1,70 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  .txt{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-size: 70px;
+    color: floralwhite;
+  }
+  .image2 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    border: 1px solid #000000;
+  }
+
+  .button-container{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+  }
+  .button {
+    font-size: 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }
+  
+  .yes{
+    width: 30%; /* Set the width to create square divs */
+    height: 80%; /* Set the height to create square divs */
+    display: inline-block; /* Make the divs appear on the same line */
+    margin-right: 20px; /* Add some spacing between the divs */
+    background-color: #f9f9f9; /* Add a background color for styling */
+    border: 1px solid #ddd; /* Add a border for visual separation */
+    padding: 10px; /* Add some padding for content spacing */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5%;
+  }
+  .yes:hover{
+    background-color: rgb(220, 241, 245);
+  }
+.img{
+  width: 90px;
+  height: 90px;
+  margin-left: 40%;
+}

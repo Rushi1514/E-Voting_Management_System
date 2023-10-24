@@ -1,0 +1,62 @@
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align to the left */
+   
+    padding: 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding in the container's width */
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form elements */
+  .label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+  }
+  
+  .checkbox1,
+  .title1,
+  .date1,
+  .time1,
+  .dropdown,
+  .select,
+  .input {
+    width: 100%; /* Make all input elements span the entire width */
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 15px; /* Add some vertical spacing between elements */
+  }
+  .select1{
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 10%;
+  }
+  
+  .add{
+    font-size: 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .add:hover {
+    background-color: #0056b3; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }

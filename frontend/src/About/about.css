@@ -1,0 +1,52 @@
+.child1{
+    height: 50%;
+    width: 50%;
+    
+}
+.child2{
+    height: 50%;
+    width: 65%;
+}
+.parent{
+    display: flex;
+}
+
+.inner1{
+    display: flex;
+    width: 50%;
+    height: 90%;
+}
+.imagica{
+    width: 50%;
+    height: 50%;
+}
+.img1{
+    width: 90%;
+    height: 50%;
+}
+.text1{
+    height: 50%;
+    width: 30%;
+}
+.outer{
+    display: flex;
+}
+
+.inner2{
+    display: flex;
+    width: 50%;
+    height: 80%;
+}
+.imagica1{
+    width: 50%;
+    height: 50%;
+}
+.img2{
+    width: 90%;
+    height: 50%;
+}
+
+.text2{
+    height: 50%;
+    width: 30%;
+}

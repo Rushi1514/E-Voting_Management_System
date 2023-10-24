@@ -1,0 +1,77 @@
+/* EditProfile.css */
+
+.edit-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .upload-image {
+    margin-bottom: 20px;
+  }
+  
+  .upload-image h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-image img {
+    width:300px;
+    height: 300px;
+    border: 2px solid #007bff;
+    border-radius: 100%;
+  }
+  
+  .upload-image input[type="file"] {
+    display: none;
+  }
+  
+  .upload-image label {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .user-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .profile-logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loading {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed for additional fields */
+  
